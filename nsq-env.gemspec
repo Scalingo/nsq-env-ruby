@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://github.com/Scalingo/nsq-env-ruby'
   s.license       = 'BSD'
-  s.add_dependency "krakow", '~> 0.4'
+  s.add_runtime_dependency 'krakow', '~> 0.4'
 end
