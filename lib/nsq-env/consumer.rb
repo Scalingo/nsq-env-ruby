@@ -1,3 +1,5 @@
+require "krakow"
+
 module NsqEnv
   class Consumer < Krakow::Consumer
     def initialize(opts = {})

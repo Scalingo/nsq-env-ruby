@@ -1,3 +1,5 @@
+require "krakow"
+
 module NsqEnv
   class Producer < Krakow::Producer
     def initialize(opts = {})
