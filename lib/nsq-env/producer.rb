@@ -5,7 +5,7 @@ module NsqEnv
     def initialize(opts = {})
       raise ArgumentError.new "opts should have a :topic key" if not opts[:topic]
 
-      opts.merge({
+      opts.merge!({
         :host => ENV["NSQD_HOST"],
         :port => ENV["NSQD_PORT"],
       })
