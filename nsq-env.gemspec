@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files | grep .rb$`.split
   s.homepage    =
     'http://github.com/Scalingo/nsq-env-ruby'
-  s.license       = 'BSD'
-  s.add_runtime_dependency 'nsq-ruby', '~> 1.6.0'
+  s.license       = 'BSD-3-Clause'
+  s.add_runtime_dependency 'nsq-ruby', '~> 1.6'
 end
