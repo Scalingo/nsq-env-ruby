@@ -1,4 +1,4 @@
-require "krakow"
+require 'nsq'
 
 module NsqEnv
   class Producer < Nsq::Producer

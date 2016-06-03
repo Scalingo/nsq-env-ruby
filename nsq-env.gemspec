@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'nsq-env'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.date        = '2016-06-03'
   s.summary     = "Build consumers and producers with help of environment"
   s.description = File.read(File.join(File.expand_path("..", __FILE__), "README.md"))
