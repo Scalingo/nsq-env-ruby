@@ -1,7 +1,7 @@
 require "krakow"
 
 module NsqEnv
-  class Consumer < Krakow::Consumer
+  class Consumer < Nsq::Consumer
     def initialize(opts = {})
       raise ArgumentError.new "opts should have a :topic key" if not opts[:topic]
       raise ArgumentError.new "opts should have a :channel key" if not opts[:channel]

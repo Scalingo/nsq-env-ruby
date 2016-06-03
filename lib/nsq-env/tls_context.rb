@@ -2,18 +2,11 @@ module NsqEnv
   class TLSContext
     def self.env
       {
-        :connection_options => {
-          :features => {
-            :tls_v1 => true
-          },
-          :config => {
-            :ssl_context => {
-              :ca_file => ENV["NSQD_TLS_CACERT"],
-              :certificate => ENV["NSQD_TLS_CERT"],
-              :key => ENV["NSQD_TLS_KEY"],
-            }
-          }
-        }
+        :ssl_context => {
+          :key => ENV["NSQD_TLS_KEY"],
+          :certificate => ENV["NSQD_TLS_CERT"],
+          :ca_certificate => ENV["NSQD_TLS_CACERT"],
+        },
       }
     end
   end

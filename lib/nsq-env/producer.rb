@@ -1,13 +1,12 @@
 require "krakow"
 
 module NsqEnv
-  class Producer < Krakow::Producer
+  class Producer < Nsq::Producer
     def initialize(opts = {})
       raise ArgumentError.new "opts should have a :topic key" if not opts[:topic]
 
       opts.merge!({
-        :host => ENV["NSQD_HOST"],
-        :port => ENV["NSQD_PORT"],
+        :nsqlookupd => ENV["NSQLOOKUPD_URLS"].split(","),
       })
       opts.merge! TLSContext.env if ENV["NSQD_TLS"] == "true"
 

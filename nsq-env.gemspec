@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'nsq-env'
-  s.version     = '0.0.5'
-  s.date        = '2015-09-14'
+  s.version     = '0.1.0'
+  s.date        = '2016-06-03'
   s.summary     = "Build consumers and producers with help of environment"
   s.description = File.read(File.join(File.expand_path("..", __FILE__), "README.md"))
   s.authors     = ["Léo Unbekandt"]
@@ -10,6 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://github.com/Scalingo/nsq-env-ruby'
   s.license       = 'BSD'
-  s.add_runtime_dependency 'krakow', '~> 0.4.0'
-  s.add_runtime_dependency 'celluloid', '~> 0.16.0'
+  s.add_runtime_dependency 'nsq-ruby', '~> 1.6.0'
 end

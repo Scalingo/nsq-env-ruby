@@ -1,40 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.8)
-    celluloid (0.15.2)
-      timers (~> 1.1.0)
-    celluloid-io (0.15.0)
-      celluloid (>= 0.15.0)
-      nio4r (>= 0.5.0)
-    digest-crc (0.4.1)
-    domain_name (0.5.24)
-      unf (>= 0.0.5, < 1.0.0)
-    http (0.9.6)
-      addressable (~> 2.3)
-      http-cookie (~> 1.0)
-      http-form_data (~> 1.0.1)
-      http_parser.rb (~> 0.6.0)
-    http-cookie (1.0.2)
-      domain_name (~> 0.5)
-    http-form_data (1.0.1)
-    http_parser.rb (0.6.0)
-    krakow (0.4.2)
-      celluloid
-      digest-crc
-      http
-      multi_json
-    multi_json (1.11.2)
-    nio4r (1.1.1)
-    timers (1.1.0)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.1)
+    nsq-ruby (1.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  celluloid (~> 0.15.0)
-  celluloid-io
-  krakow
+  nsq-ruby
+
+BUNDLED WITH
+   1.12.1
