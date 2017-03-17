@@ -8,3 +8,4 @@
 - `NSQD_TLS`        (default to `false`)
 - `NSQD_TLS_CERT`
 - `NSQD_TLS_KEY`
+- `NSQD_TLS_CACERT`
