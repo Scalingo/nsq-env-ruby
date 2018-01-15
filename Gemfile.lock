@@ -1,13 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    nsq-ruby (1.6.0)
+    nsq-ruby (2.2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  nsq-ruby
+  nsq-ruby (~> 2.2)
 
 BUNDLED WITH
-   1.12.1
+   1.15.4

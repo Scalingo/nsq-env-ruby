@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'nsq-ruby'
+gem 'nsq-ruby', "~> 2.2"
