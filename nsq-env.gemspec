@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'nsq-env'
-  s.version     = '0.2.0'
-  s.date        = '2018-01-15'
+  s.version     = '1.0.0'
+  s.date        = '2018-06-11'
   s.summary     = "Build consumers and producers with help of environment"
   s.description = File.read(File.join(File.expand_path("..", __FILE__), "README.md"))
   s.authors     = ["Léo Unbekandt"]
