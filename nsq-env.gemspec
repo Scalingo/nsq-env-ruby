@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://github.com/Scalingo/nsq-env-ruby'
   s.license       = 'BSD-3-Clause'
-  s.add_runtime_dependency 'nsq-ruby', '~> 2.2'
+  s.add_runtime_dependency 'nsq-ruby', '~> 2.3'
 end
