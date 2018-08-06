@@ -1,3 +1,4 @@
+require "nsq-env/utils"
 require "nsq-env/producer"
 require "nsq-env/consumer"
 require "nsq-env/tls_context"

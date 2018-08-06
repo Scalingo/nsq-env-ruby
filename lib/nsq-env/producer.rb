@@ -5,7 +5,7 @@ module NsqEnv
     def initialize(opts = {})
       raise ArgumentError.new "opts should have a :topic key" if not opts[:topic]
 
-      opts[:nsqd] = ENV["NSQD_HOSTS"].split(',')
+      opts[:nsqd] = NsqEnv::nsqds
 
       opts.merge! TLSContext.env if ENV["NSQD_TLS"] == "true"
 
