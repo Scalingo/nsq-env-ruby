@@ -1,3 +1,7 @@
+# v1.1.0 - 06 Aug 2018
+
+- Add NsqEnv::nsqds returning an array of hosts from the environment
+
 # v1.0.1 - 12 June 2018
 
 - Update dependency on nsq-ruby 2.2 -> 2.3
