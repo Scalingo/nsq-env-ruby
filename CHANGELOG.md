@@ -1,3 +1,7 @@
+# v1.1.1 - 27 Jan 2019
+
+- [producer] No need of topic key, check is done by nsq-ruby directly
+
 # v1.1.0 - 06 Aug 2018
 
 - Add NsqEnv::nsqds returning an array of hosts from the environment
