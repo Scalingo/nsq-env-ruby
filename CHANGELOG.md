@@ -1,3 +1,7 @@
+# v1.2.0 - 29 Jan 2019
+
+- Use Nsq::NsqdsProducer as a default producer
+
 # v1.1.1 - 27 Jan 2019
 
 - [producer] No need of topic key, check is done by nsq-ruby directly
