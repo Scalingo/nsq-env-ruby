@@ -10,4 +10,4 @@ DEPENDENCIES
   nsq-ruby (~> 2.3)
 
 BUNDLED WITH
-   1.16.2
+   2.4.13
